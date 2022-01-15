@@ -1,0 +1,89 @@
+
+/*-----------------------
+  set background colors
+  ----------------------*/
+  body{
+    background: #AAAAAA;
+  }
+
+  .screen{
+    background: #FFFFFF;
+    width: 1300px;
+    height: 2900px;
+    margin: 0 auto;
+  }
+
+/*-------------
+   section one
+ --------------*/
+ .first-part{
+     display: flex;
+     margin-bottom: 100px;
+ }
+ .header{
+     width: 55%;
+     margin-left: 120px;
+ }
+ .header-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+ }
+
+ 
+
+ .first-header{
+     margin-bottom: 0;
+     width: 80%;
+ }
+
+ .second-header{
+    margin-top: 0;
+}
+
+.peragraph-width{
+    width: 60%;
+}
+
+.button{
+    background: #E02C6D;
+    color: white;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    border: none;
+}
+
+.fas{
+    padding-left: 5px;
+    color: white;
+}
+
+.camera-image{
+    margin-right: 165px;
+}
+.big-ring{
+    background-color: #F1E4FF;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    position: relative;
+}
+
+.small-ring{
+    background-color: lightgray;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+
+img[alt='Camera']{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,45 @@
+/*---------------
+    logo part
+  ---------------*/
+ .second-part{
+     border: 1px solid black;
+     border-image: linear-gradient(rgb(243, 240, 240),rgb(235, 232, 232)) 20;
+     width: 90%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+ }
+ .fab{
+    display: inline-block;
+    width: 5%;
+    height: 50px;
+    font-size: 50px;
+    margin-left: 125px;
+    
+ }
+
+ .fa-aws{
+    color: rgb(75, 65, 65);
+ }
+
+ .fa-apple-pay{
+    color: rgb(75, 65, 65);    
+     padding-left: 50px;
+ }
+
+ .fa-microsoft{
+    color: rgb(75, 65, 65);
+         padding-left: 50px;
+         font-size: 35px;
+ }
+
+ .fa-ebay{
+    color: rgb(75, 65, 65);
+         padding-left: 50px;
+ }
+
+
+.fa-uber{
+    color: rgb(75, 65, 65);
+         padding-left: 50px;
+         font-size: 40px;
+ }
